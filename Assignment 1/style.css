@@ -63,6 +63,17 @@ footer img{
     height: 40px;
     border-radius: 50%;
 }
+.hello {
+    padding: 100px;
+    text-align: center; /* Center text horizontally within hello */
+    font-size: 40px;
+}
+.gif {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100%;
+    width: 100%;
+}
 /*--------------------------------------------------*/
 form{
     display: block;
@@ -121,6 +132,17 @@ label.desc3{
     white-space: normal;
     width: 100%;
 }
+label.desc4{
+    font-size: 95%;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    padding: 10px 0 3px 0;
+    border: none;
+    display: block;
+    white-space: normal;
+    width: 100%;
+}
 li {
     display: list-item;
     text-align: -webkit-match-parent;
@@ -148,22 +170,26 @@ ul li div small {
     text-align: left; /* Left-justify text */
     margin: 5px; /* Add margin for spacing */
 }
+.input-container4 {
+    text-align: left; /* Left-justify text */
+    margin: 5px; /* Add margin for spacing */
+}
 .button{
     text-align: left;
     margin: 5px 5px 20px; /* Keep the button above the footer */
     z-index: 999; /* Make sure the button appears above other elements */
 }
 /*--------------------------------------------------*/
-article img{
+.artline img{
     width: 400px;
     height: 200px;
     margin: 15px 15px 5px;
 }
-article p{
+.artline p{
     margin: 15px 15px 50px;
     width: 400px;
 }
-article h3{
+.artline h3{
     margin: 15px;
 }
 article {
@@ -184,6 +210,13 @@ article {
     }
 }
 /*--------------------------------------------------*/
+article p{
+    margin: 15px 15px 50px;
+    width: 400px;
+}
+article h3{
+    margin: 15px;
+}
 .about-section{
     display: flex;
     align-items: center;
