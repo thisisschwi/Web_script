@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width: 701px) and (max-width: 900px){
+    .hello {
+        padding: 5px;
+        padding-top: 20%;
+        padding-bottom: 20px;
+        text-align: center; /* Center text horizontally within hello */
+        font-size: 30px;
+    }
+    /*--------------------------------------------------*/
+    /* contact form */
+}
